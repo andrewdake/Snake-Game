@@ -24,7 +24,7 @@ let apple = {
     eaten: 0
   }
   let appleContext;
-  
+
 const directions = {
   up: "up",
   left: "left",
@@ -42,13 +42,13 @@ const statuses = {
 play = () => {
     updateMsg("pause");
 
-    if (isSnakeEatingItself() || isSnakeHittingBorder())
+    if (isSnakeEatingItself() || isSnakeHittingBorder()){
         game.gameStatus = statuses.over;
-    else
+    } else {
         moveSnake();
+    }
 
     isSnakeEatingApple();
-
     updateBoard();
     drawSnake();
     drawApple();
