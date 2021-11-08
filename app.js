@@ -17,20 +17,20 @@ let snake = {
 }
 let snakeContext;
 
+let apple = {
+    radius: snake.height / 2,
+    x: 0,
+    y: 0,
+    eaten: 0
+  }
+  let appleContext;
+  
 const directions = {
   up: "up",
   left: "left",
   right: "right",
   down: "down"
 }
-
-let apple = {
-  radius: snake.height / 2,
-  x: 0,
-  y: 0,
-  eaten: 0
-}
-let appleContext;
 
 const statuses = {
   start: "start",
