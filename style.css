@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(166, 207, 207);
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(24, 107, 24);
+    border-bottom: solid 1px rgb(21, 88, 88);
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: rgb(24, 107, 24);
+}
+
+#messageContainer {
+    width: auto;
+    text-align: center;
+}
+
+#boardContainer {
+    width: auto; 
+    text-align: center;
+}
+
+#gameBoard {
+    border: solid 3px rgb(151, 108, 126);
+    border-radius: 1px;
+}
+
+
